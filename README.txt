@@ -1,0 +1,1 @@
+Akilli Toplu Tasima Proje Paketi - yeniden olusturuldu.
