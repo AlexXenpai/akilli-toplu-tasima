@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef4ff;
+    color: #1f2937;
+}
+
+header {
+    padding: 22px 30px;
+    background: #172554;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 6px 0;
+}
+
+header p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    gap: 22px;
+    padding: 22px;
+}
+
+.control-panel, .map-panel {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 11px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+button {
+    margin-top: 16px;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+canvas {
+    width: 100%;
+    background: #e0f2fe;
+    border: 1px solid #bfdbfe;
+    border-radius: 14px;
+}
+
+.result-box {
+    margin-top: 14px;
+}
+
+.result-item {
+    background: #eff6ff;
+    border-left: 4px solid #2563eb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+hr {
+    margin: 24px 0;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+}

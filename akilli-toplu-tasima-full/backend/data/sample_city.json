@@ -1,0 +1,157 @@
+{
+  "stops": [
+    {
+      "id": "D1",
+      "name": "Kent Meydani",
+      "x": 120,
+      "y": 140
+    },
+    {
+      "id": "D2",
+      "name": "Stadyum",
+      "x": 260,
+      "y": 100
+    },
+    {
+      "id": "D3",
+      "name": "Universite",
+      "x": 450,
+      "y": 160
+    },
+    {
+      "id": "D4",
+      "name": "Hastane",
+      "x": 180,
+      "y": 330
+    },
+    {
+      "id": "D5",
+      "name": "Otogar",
+      "x": 380,
+      "y": 360
+    },
+    {
+      "id": "D6",
+      "name": "Park",
+      "x": 560,
+      "y": 300
+    },
+    {
+      "id": "D7",
+      "name": "Sanayi",
+      "x": 680,
+      "y": 180
+    },
+    {
+      "id": "D8",
+      "name": "Terminal",
+      "x": 720,
+      "y": 420
+    },
+    {
+      "id": "D9",
+      "name": "Kultur Merkezi",
+      "x": 320,
+      "y": 250
+    },
+    {
+      "id": "D10",
+      "name": "Belediye",
+      "x": 590,
+      "y": 430
+    }
+  ],
+  "connections": [
+    {
+      "from": "D1",
+      "to": "D2",
+      "distance": 3.2,
+      "time": 6,
+      "line": "M1"
+    },
+    {
+      "from": "D2",
+      "to": "D3",
+      "distance": 4.8,
+      "time": 9,
+      "line": "M1"
+    },
+    {
+      "from": "D1",
+      "to": "D4",
+      "distance": 5.1,
+      "time": 11,
+      "line": "B2"
+    },
+    {
+      "from": "D4",
+      "to": "D5",
+      "distance": 3.4,
+      "time": 7,
+      "line": "B2"
+    },
+    {
+      "from": "D5",
+      "to": "D6",
+      "distance": 4.0,
+      "time": 8,
+      "line": "T1"
+    },
+    {
+      "from": "D3",
+      "to": "D6",
+      "distance": 3.6,
+      "time": 7,
+      "line": "T1"
+    },
+    {
+      "from": "D6",
+      "to": "D7",
+      "distance": 4.2,
+      "time": 9,
+      "line": "M2"
+    },
+    {
+      "from": "D7",
+      "to": "D8",
+      "distance": 5.6,
+      "time": 12,
+      "line": "M2"
+    },
+    {
+      "from": "D5",
+      "to": "D8",
+      "distance": 6.0,
+      "time": 13,
+      "line": "B5"
+    },
+    {
+      "from": "D2",
+      "to": "D9",
+      "distance": 2.7,
+      "time": 5,
+      "line": "B3"
+    },
+    {
+      "from": "D9",
+      "to": "D5",
+      "distance": 3.1,
+      "time": 6,
+      "line": "B3"
+    },
+    {
+      "from": "D6",
+      "to": "D10",
+      "distance": 2.6,
+      "time": 5,
+      "line": "T2"
+    },
+    {
+      "from": "D10",
+      "to": "D8",
+      "distance": 3.4,
+      "time": 7,
+      "line": "T2"
+    }
+  ]
+}

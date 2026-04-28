@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Akıllı Toplu Taşıma ve Navigasyon Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Akıllı Toplu Taşıma ve Navigasyon Sistemi</h1>
+    <p>KD-Tree, Graph, Hash Table, Min-Heap, KNN ve Dijkstra kullanılarak hazırlanmıştır.</p>
+</header>
+
+<main>
+    <section class="control-panel">
+        <h2>Rota Bul</h2>
+
+        <label>Başlangıç durağı</label>
+        <select id="startStop"></select>
+
+        <label>Hedef durağı</label>
+        <select id="targetStop"></select>
+
+        <button onclick="findRoute()">Rota Bul</button>
+
+        <div id="routeResult" class="result-box"></div>
+
+        <hr>
+
+        <h2>En Yakın Durak</h2>
+        <p>Haritada bir noktaya tıkla. Sistem KD-Tree ile en yakın K durağı bulsun.</p>
+
+        <label>K değeri</label>
+        <input type="number" id="kValue" value="3" min="1" max="5">
+
+        <div id="nearestResult" class="result-box"></div>
+    </section>
+
+    <section class="map-panel">
+        <canvas id="mapCanvas" width="900" height="540"></canvas>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
